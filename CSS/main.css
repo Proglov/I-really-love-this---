@@ -1,0 +1,7 @@
+#myCanvas2{
+    position: absolute;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+}
