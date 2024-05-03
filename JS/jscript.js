@@ -7,12 +7,12 @@ window.onload = function () {
 
     let P1 = new P(100, 100);
     let P2 = new P(200, 500);
-    let x0 = 300;
-    let y0 = 750;
+    let x0 = 400;
+    let y0 = 650;
     let v1 = 10;
     let v2 = 1;
     let r1 = 100;
-    let r2 = 300;
+    let r2 = 400;
     let frameSpeed = 50;
     let freq = 1000 / frameSpeed;
 
@@ -51,7 +51,7 @@ window.onload = function () {
         const myInterval = setInterval(function () {
             drawLine(P1, P2, colorIndex);
             if (time >= constTime) clearInterval(myInterval);
-            time += freq/1000;
+            time += freq / 1000;
         }, freq)
     }
 
